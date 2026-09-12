@@ -486,16 +486,6 @@
           "description": "Custom Docker image URI for the runtime environment.",
           "title": "Custom Image"
         },
-        "mode": {
-          "default": "standard",
-          "description": "Select 'full' if you need Browser(Chrome), FFmpeg, or Node.js runtime. (Deprecated)",
-          "enum": [
-            "standard",
-            "full"
-          ],
-          "title": "Mode",
-          "type": "string"
-        },
         "lifecycle": {
           "default": "serverless",
           "description": "Execution mode: 'serverless' (max 10 mins), 'daemon' (24/7 always-on), or 'interactive' (real-time streaming).",
