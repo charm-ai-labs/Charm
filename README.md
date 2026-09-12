@@ -70,7 +70,7 @@ Please report vulnerabilities privately using the process in [SECURITY.md](./SEC
 
 ## Contact
 
-- Support and Questions: [Community](https://discord.gg/gdakynHUEb) / [Email](mailto:team@charmos.io)
+Support and Questions: [Community](https://discord.gg/gdakynHUEb) / [Email](mailto:team@charmos.io)
 
 ## Changelog
 

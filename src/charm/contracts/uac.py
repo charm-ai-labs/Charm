@@ -205,11 +205,6 @@ class RuntimeConfig(BaseModel):
         None, description="Custom Docker image URI for the runtime environment."
     )
 
-    mode: Literal["standard", "full"] = Field(
-        "standard",
-        description="Select 'full' if you need Browser(Chrome), FFmpeg, or Node.js runtime. (Deprecated)",
-    )
-
     lifecycle: Literal["serverless", "daemon", "interactive"] = Field(
         "serverless",
         description="Execution mode: 'serverless' (max 10 mins), 'daemon' (24/7 always-on), or 'interactive' (real-time streaming).",

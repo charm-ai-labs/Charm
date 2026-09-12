@@ -43,3 +43,5 @@ htmlcov/
 
 # Local agents (create with: charm init agents/<name>)
 agents/
+# Codex CLI
+.codex/
