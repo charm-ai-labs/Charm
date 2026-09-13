@@ -44,7 +44,7 @@ Every pull request should include:
 1. Fork & Clone
 
 ```bash
-git clone https://github.com/CharmAIOS/Charm.git
+git clone https://github.com/charm-ai-labs/Charm.git
 cd Charm
 ```
 
@@ -85,8 +85,8 @@ Do not open public issues for suspected vulnerabilities. Follow the private disc
 
 ## Issues, Bugs, and Feature Requests
 
-1. Report bugs or suggest features under [Issues](https://github.com/CharmAIOS/Charm/issues/new/choose).
-2. Before opening a new issue, please review the [existing issues](https://github.com/CharmAIOS/Charm/issues) first.
+1. Report bugs or suggest features under [Issues](https://github.com/charm-ai-labs/Charm/issues/new/choose).
+2. Before opening a new issue, please review the [existing issues](https://github.com/charm-ai-labs/Charm/issues) first.
 3. We kindly ask you to follow our issue templates.
 
 ## Community Guidelines

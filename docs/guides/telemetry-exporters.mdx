@@ -8,7 +8,7 @@ Charm dispatches execution lifecycle events (run start/end, tool calls, LLM toke
 > Telemetry plugins run **inside the agent container**, not in the store or cloud-runner API process.
 
 > [!TIP]
-> **Want to build a new exporter?** Use the [charm-telemetry-template](https://github.com/CharmAIOS/charm-telemetry-template) to bootstrap your project. It includes the correct entry points and `BaseTelemetryExporter` setup.
+> **Want to build a new exporter?** Use the [charm-telemetry-template](https://github.com/charm-ai-labs/charm-telemetry-template) to bootstrap your project. It includes the correct entry points and `BaseTelemetryExporter` setup.
 
 ## 1. Implement `BaseTelemetryExporter`
 
@@ -96,7 +96,7 @@ When you deploy, the runner will execute `uv pip install -r requirements.txt` in
 
 Once your telemetry exporter is working and published to PyPI, you can list it in the official **Charm Store**!
 
-Submit a Pull Request to the [charm-community-plugin](https://github.com/CharmAIOS/charm-community-plugin) repository to add your package to `telemetry/registry.json`. Your integration will immediately appear on the [Plugins](/plugins) page for other developers to discover.
+Submit a Pull Request to the [charm-community-plugin](https://github.com/charm-ai-labs/charm-community-plugin) repository to add your package to `telemetry/registry.json`. Your integration will immediately appear on the [Plugins](/plugins) page for other developers to discover.
 
 ## Related
 

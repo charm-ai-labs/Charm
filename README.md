@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/CharmAIOS/Charm/main/assets/charm-banner.png" alt="Charm Banner" width="60%" />
+  <img src="https://raw.githubusercontent.com/charm-ai-labs/Charm/main/assets/charm-banner.png" alt="Charm Banner" width="60%" />
 </p>
 
 <p align="center">
-  <a href="https://github.com/CharmAIOS/Charm/actions"><img src="https://img.shields.io/github/actions/workflow/status/CharmAIOS/Charm/deploy-staging.yml?label=BUILD&style=flat-square&color=E8A694" alt="Build" /></a>
+  <a href="https://github.com/charm-ai-labs/Charm/actions"><img src="https://img.shields.io/github/actions/workflow/status/charm-ai-labs/Charm/deploy-staging.yml?label=BUILD&style=flat-square&color=E8A694" alt="Build" /></a>
   <a href="https://pypi.org/project/charmos/"><img src="https://img.shields.io/pypi/v/charmos?label=RELEASE&style=flat-square&color=007ec6" alt="PyPI" /></a>
   <a href="https://discord.gg/gdakynHUEb"><img src="https://img.shields.io/badge/DISCORD-JOIN%20US-5865f2?style=flat-square&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/CharmAIOS/Charm/blob/main/LICENSE"><img src="https://img.shields.io/github/license/CharmAIOS/Charm?label=LICENSE&style=flat-square&color=007ec6" alt="License" /></a>
+  <a href="https://github.com/charm-ai-labs/Charm/blob/main/LICENSE"><img src="https://img.shields.io/github/license/charm-ai-labs/Charm?label=LICENSE&style=flat-square&color=007ec6" alt="License" /></a>
   <a href="https://x.com/charm_labs"><img src="https://img.shields.io/twitter/follow/charm_labs?label=FOLLOW%20@CHARM_LABS&style=flat-square&color=000000&logo=x&logoColor=white" alt="X" /></a>
 </p>
 
@@ -62,7 +62,7 @@ Use the quickstart docs to install the CLI, build a starter agent, validate `cha
 
 ## Contributing
 
-To know how to contribute to Charm, please read our [contribution guide](https://github.com/CharmAIOS/Charm/blob/main/CONTRIBUTING.md).
+To know how to contribute to Charm, please read our [contribution guide](https://github.com/charm-ai-labs/Charm/blob/main/CONTRIBUTING.md).
 
 ## Security
 
@@ -78,4 +78,4 @@ Check our [updates](https://charmos.io/changelog)
 
 ## License
 
-Charm is licensed under the [GNU Affero General Public License v3.0](https://github.com/CharmAIOS/CharmOS/blob/main/LICENSE)
+Charm is licensed under the [GNU Affero General Public License v3.0](https://github.com/charm-ai-labs/CharmOS/blob/main/LICENSE)
