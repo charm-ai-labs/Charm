@@ -105,7 +105,7 @@ To share a custom renderer:
 
 1. **Build a React Component**: Write a React component that takes a `payload` prop and export it as your default export. 
 2. **Publish to NPM**: Package your component and publish it to NPM. Ensure your package is ESM compatible.
-3. **Register in the Community Plugin**: Submit a Pull Request to the [charm-community-plugin](https://github.com/CharmAIOS/charm-community-plugin) repository. Add your renderer's details (including the `id` which corresponds to your `_charm_render_type`, and the `npm_package` name) into `renderers/registry.json`.
+3. **Register in the Community Plugin**: Submit a Pull Request to the [charm-community-plugin](https://github.com/charm-ai-labs/charm-community-plugin) repository. Add your renderer's details (including the `id` which corresponds to your `_charm_render_type`, and the `npm_package` name) into `renderers/registry.json`.
 
 Once your PR is merged, the Charm Store will dynamically fetch your component from `esm.sh` directly in the browser whenever an agent emits your `_charm_render_type`!
 

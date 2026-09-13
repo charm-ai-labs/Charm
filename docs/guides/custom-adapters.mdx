@@ -16,7 +16,7 @@ Official adapters (`langchain`, `crewai`, `openclaw`, `custom`, …) use the sam
 ### 1. Get the Boilerplate
 
 > [!TIP]
-> **Fastest Path:** You do not need to write this from scratch. Use the official **[charm-adapter-template](https://github.com/CharmAIOS/charm-adapter-template)** repository on GitHub. Click **Use this template**, rename the folder, and jump straight to implementing your `invoke` method.
+> **Fastest Path:** You do not need to write this from scratch. Use the official **[charm-adapter-template](https://github.com/charm-ai-labs/charm-adapter-template)** repository on GitHub. Click **Use this template**, rename the folder, and jump straight to implementing your `invoke` method.
 
 If you are doing it manually, start by scaffolding a plain project:
 
@@ -133,7 +133,7 @@ The cloud runner **will automatically `uv pip install` your adapter if it is lis
 
 For heavy adapters, you should provide a custom image:
 
-1. Build a Docker image based on [charm-base](https://github.com/CharmAIOS/Charm/pkgs/container/charm-base) or an official runner image
+1. Build a Docker image based on [charm-base](https://github.com/charm-ai-labs/Charm/pkgs/container/charm-base) or an official runner image
 2. `RUN uv pip install charm-adapter-ag2` (or `pip install`) inside the Dockerfile
 3. Set `runtime.custom_image` to the pushed image URI
 
@@ -149,7 +149,7 @@ runtime:
 
 To make your adapter discoverable by the global Charm community:
 
-1. Fork the [charm-community-plugin](https://github.com/CharmAIOS/charm-community-plugin) repository.
+1. Fork the [charm-community-plugin](https://github.com/charm-ai-labs/charm-community-plugin) repository.
 2. Edit `adapters/registry.json` to add your package name (`charm-adapter-ag2`).
 3. Submit a Pull Request.
 
